@@ -145,7 +145,16 @@
           <p>An introduction to using Wowchemy’s Slides feature.</p> 
          </div> </a>
         <a href="https://xiamian1012.github.io/test"> 
-              <div class="img-hover-zoom"> 
+            <div  id="width"   class="img-hover-zoom"> 
+		           <iframe id="demo2" src="https://xiamian1012.github.io/finnel_test" frameborder="0" height="455" width="808" class="article-banner" scrolling="no" alt="Example Slides" loading="lazy"></iframe> 
+          <script>
+				$(document).ready(function() {
+				  var ifr_width=$("#width").width();
+				  $("#demo2").css('width',ifr_width);
+				  $("#demo2").css('height',ifr_width*924/1920);
+
+				});
+          </script> 
    
          </div> </a> 
  
